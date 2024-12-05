@@ -66,7 +66,6 @@ SQL Tools est une extension intégrée à Visual Studio Code qui permet :
 ## Notes supplémentaires
 - **Validation des triggers** : Testez les triggers en tentant d'inscrire des étudiants dans des cours pleins ou au-delà de la limite de 5 cours.
 - **Dépannage** : Si les triggers ne fonctionnent pas, activez cette commande dans votre environnement SQL :
-  ```sql
   
 ```bash 
 SET GLOBAL log_bin_trust_function_creators = 1;
